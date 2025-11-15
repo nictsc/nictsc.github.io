@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
-  --brand: #8246af;
+  --brand: #111;
   --action: #ffa300;
   --white: #ffffff;
   --base-light: #cdb5df;
@@ -54,10 +54,12 @@
    list-style: none;
  }
 
+/*
  img {
    max-width: 100%;
    height: auto;
  }
+*/
 
  input,
  /*button,*/
@@ -65,6 +67,42 @@
  select {
    font: inherit;
  }
+
+.about-text{
+    padding: 7px;
+    border:#111111 2px solid;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me{
+    padding: 7px;
+    border:#111111 2px solid;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.project-text{
+    padding: 7px;
+    border:#111111 2px solid;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.profile-image img {
+    height: 250px;
+}
 
  /* Utilities */
 /*
@@ -186,6 +224,12 @@ header button {
 }
 
 .hero h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.hero h2 {
   font-size: 2rem;
   margin-bottom: 24px;
   color: var(--white);
