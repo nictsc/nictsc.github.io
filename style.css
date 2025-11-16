@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
-  --brand: #111;
-  --action: #ffa300;
+  --brand: #191919;
+  --action: #F7F6F3;
   --white: #ffffff;
-  --base-light: #cdb5df;
-  --base-dark: #0d0711;
+  --base-light: #D3D3D3;
+  --base-dark: #2F3437;
   --black: #111111;
 }
 
@@ -14,8 +14,8 @@
 
  html {
    box-sizing: border-box;
-   font-size: 16px;
-   font-family: "Inter", sans-serif;
+   font-size: 24px;
+   font-family: "Segoe UI", sans-serif;
    color: var(--brand);
    scroll-behavior: smooth;
  }
@@ -32,7 +32,7 @@
  h4,
  h5,
  h6 {
-   font-family: "Rubik", sans-serif;
+   font-family: "Segoe UI", sans-serif;
  }
 
  body,
@@ -47,6 +47,7 @@
  ul {
    margin: 0;
    padding: 0;
+   display:block
  }
 
  ol,
@@ -68,40 +69,23 @@
    font: inherit;
  }
 
-.about-text{
-    padding: 7px;
-    border:#111111 2px solid;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-me{
-    padding: 7px;
-    border:#111111 2px solid;
-    margin: 10px;
-    display: flex;
-    justify-content: flex-start;
-}
-
 .project-text{
-    padding: 7px;
-    border:#111111 2px solid;
-    margin: 10px;
-    display: flex;
-    justify-content: flex-start;
+  padding: 7px;
+  border:#111111 2px solid;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .profile-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-
 .profile-image img {
-    height: 250px;
+  height: 250px;
 }
 
  /* Utilities */
@@ -130,13 +114,11 @@
 */
 
  /* header */
- 
 header .mobile-header {
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*flex-direction: column;*/
 }
 
 /*
@@ -147,19 +129,19 @@ header button {
 
  @media (min-width: 768px) {
    header {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
    }
 
    header nav ul {
-       display: flex;
-       gap: 24px;
-       margin-right: 16px;
+      display: flex;
+      gap: 24px;
+      margin-right: 16px;
    }
 
    header .mobile-header .hamburger-icon {
-       display: none;
+      display: none;
    }
  }
 
@@ -171,21 +153,20 @@ header button {
 
  @media (min-width: 768px) {
    .logo {
-       height: 100px;
+      height: 100px;
    }
  }
 
 /* .mobile-nav */
-
 .mobile-nav {
-    display: none;
+  display: none;
 }
 
 .mobile-nav a {
   text-decoration: none;
   color: var(--black);
   display: block;
- padding: 4px 16px;
+  padding: 4px 16px;
 }
 
 /* .desktop-nav */
@@ -195,13 +176,13 @@ header button {
 
  @media (min-width: 768px) {
    .desktop-nav a {
-       text-decoration: none;
-       font-size: larger;
-       color: var(--black);
+      text-decoration: none;
+      font-size: larger;
+      color: var(--black);
    }
  
    .desktop-nav {
-       display: inline-block;
+      display: inline-block;
    }
  }
 
@@ -211,9 +192,8 @@ header button {
 }
 
 /* .hero */
-
 .hero-image {
-    height: 75px;
+  height: 75px;
 }
 
 .hero {
@@ -228,7 +208,7 @@ header button {
   margin-bottom: 24px;
   color: var(--white);
 }
-
+/*
 .hero h2 {
   font-size: 2rem;
   margin-bottom: 24px;
@@ -238,39 +218,33 @@ header button {
 .hero .hero-accent {
   color: var(--action);
 }
-
+*/
  @media (min-width: 768px) {
    .hero {
-       padding: 120px 56px;
+      padding: 120px 56px;
    }
  
    .hero h1 {
-       font-size: 3.5rem;
-       max-width: 70%;
+      font-size: 3.5rem;
+      max-width: 70%;
    }
  }
-
+ 
  /* .articles-container  */
  @media (min-width: 768px) {
    .articles-container {
-     display: flex;
+    display: flex;
    }
  }
 
 /* .article */
-article {
+.article {
   padding: 32px 16px;
-  background-color: var(--base-light);
   border-radius: 10px;
   margin: 5px 10px;
   transition: all 0.3s ease;
+  text-align: justify;
 }
-
- @media (min-width: 768px) {
-   article {
-       padding: 56px;
-   }
- }
 
 article:hover {
   filter: contrast(150%);
@@ -280,7 +254,6 @@ article:hover {
    display: flex;
    justify-content: flex-start;
  }
-
 
 article .icon {
   height: 24px;
@@ -296,7 +269,23 @@ article .article-heading h2 {
 
 article p {
   margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+ @media (min-width: 768px) {
+    .article {
+      max-width: 60%;
+      margin: 10px auto;
+    }
+
+    .article h2{
+    text-align: center;
+    font-size: 2.5rem; /* sizing factor */
+    padding: 7px;
+    margin: 10px;
+  }
+ }
 
 /* .contact-form */
 .contact-form {
@@ -338,13 +327,13 @@ article p {
 
  @media (min-width: 768px) {
    .contact-form h2 {
-       text-align: center;
-       font-size: 2.5rem;
+      text-align: center;
+      font-size: 2.5rem;
    }
  
    .contact-form form {
-       max-width: 60%;
-       margin: 40px auto;
+      max-width: 60%;
+      margin: 40px auto;
    }
  }
 
@@ -353,8 +342,8 @@ article p {
 footer {
   padding: 16px;
   text-align: center;
-   display: flex;
-   justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .socials-icon {
@@ -364,11 +353,11 @@ footer {
 
  @media (min-width: 768px) {
    footer {
-       justify-content: center;
+      justify-content: center;
    }
  
    footer .socials-icon {
-       margin-left: 20px;
-       margin-right: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
    }
  }
