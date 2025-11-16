@@ -1,6 +1,6 @@
-#  your_name_here - Portfolio Task
+#  Nicole Chan - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio site](https://nictsc.github.io/)
 ​
 ## Project Requirements
 
@@ -32,7 +32,7 @@
 > 
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  image_title_goes_here 
+####  Screenshots
 ![Index.html > 800-px](./img/index-800px.jpg)
 ![Projects.html > 800-px](./img/projects-800px.jpg)
 ![Index.html < 800-px](./img/index-700px.jpg)
