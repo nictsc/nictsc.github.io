@@ -10,7 +10,7 @@
 - [x] Biography (at least 100 words)
 - [x] Functional Contact Form
 - [x] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- [x] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
