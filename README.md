@@ -6,19 +6,19 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
+- [x] At least one profile picture
+- [x] Biography (at least 100 words)
+- [x] Functional Contact Form
+- [x] "Projects" section
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+- [x] At least 2 web pages.
+- [x] Version controlled with Git
+- [x] Deployed on GitHub pages.
+- [x] Implements responsive design principles.
+- [x] Uses semantic HTML.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
@@ -33,4 +33,7 @@
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
 ####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+![Index.html > 800-px](./img/index-800px.jpg)
+![Projects.html > 800-px](./img/projects-800px.jpg)
+![Index.html < 800-px](./img/index-700px.jpg)
+![Projects.html < 800-px](./img/projects-700px.jpg)
