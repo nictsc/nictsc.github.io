@@ -11,6 +11,7 @@
 - [x] Functional Contact Form
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
+- Main inspiration - Using the Notion interface as the main source of inspiration. Hence using black and white as the main colour themes, notion-like fonts and minimalism to make the website more accessible for the end-user.
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
@@ -19,6 +20,7 @@
 - [x] Deployed on GitHub pages.
 - [x] Implements responsive design principles.
 - [x] Uses semantic HTML.
+- Added 2 pages (home page and project page). Using semantic HTML to differentiate different UI elements on the front end. Use mobile responsivenss principles on the behaviour and appearance of the nav bar and the hamburger menu.
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
@@ -32,8 +34,11 @@
 > 
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  Screenshots
-![Index.html > 800-px](./img/index-800px.jpg)
-![Projects.html > 800-px](./img/projects-800px.jpg)
-![Index.html < 800-px](./img/index-700px.jpg)
-![Projects.html < 800-px](./img/projects-700px.jpg)
+####  Desktop Screenshots
+![Desktop Home Page](./img/index-800px.jpg)
+![Desktop Projects Page](./img/projects-800px.jpg)
+####  Mobile Screenshots
+![Mobile Home Page](./img/index-700px.jpg)
+![Mobile Projects Page](./img/projects-700px.jpg)
+####  Wireframe
+![Initial Wireframe](./img/initial-wireframe.jpg)
