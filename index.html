@@ -12,67 +12,71 @@
 
   <body>
     <header> 
-        <div class = "mobile-header">
-            <img class = "hero-image" src ="./img/cat-logo.png" alt="logo" class ="">
-            <button type = "button" class="hamburger-button">
-            <img class = "hamburger-icon" src ="./img/hamburger.svg" alt="3 horizontal lines on top of each other">
-            </button>
-        </div>
-      
-        <nav class= "desktop-nav" aria-label="Primary">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-            </ul>
-        </nav>
+      <div class = "mobile-header">
+        <a href="/">
+          <img class = "logo" src ="./img/cat-logo.png" alt="logo" >
+        </a>
+          <button type = "button" class="hamburger">
+          <img class = "hamburger-icon" src ="./img/hamburger.svg" alt="3 horizontal lines on top of each other">
+          </button>
+      </div>
+    
+      <nav class= "desktop-nav" aria-label="Primary">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+        </ul>
+      </nav>
 
-        <nav class="mobile-nav" aria-label="Primary">
-            <ul>
-                <li>
-                     <li>
-                    <a href="index.html">Home</a>
-                    </li>
-                    <a href="projects.html">Projects</a>
-                </li>
-            </ul>
-        </nav>  
-    </header>
+      <nav class="mobile-nav" aria-label="Primary">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+        </ul>
+      </nav>  
+  </header>
 
     <div class="article">
+      
       <section class = "profile-image">
-          <img src ="./img/profile-photo.png"/>
+        <img src ="./img/profile-photo.png"/>
       </section> 
+
       <section class ="article">
-          <h2> About Nicole </h2>
-          <p> Nicole's favourite word is why. Her curiosity has led me from the lab testing Australian milk exports to the office where she helps the mortgage broker community in getting their clients along their house hunting journey. <br><br> Her experience in testing and her curiosity go well in refining the end-user experience in the mortgage aggregator industry. Celebrating 21 years in Australia, she would love to connect with fellow women in tech, software testing and software development community. She would love to find out their why in working in tech and their stories in career pivoting. She hopes the skills learnt in the coding bootcamp will help her to pivot into the world of software development. <br><br> Outside work, her curiosity has her chasing the perfect sunrise through the lens of photography. She also believes in giving back to the community by volunteering at Women in Tech networking events. To find out more, you can connect with her at <a href="https://www.linkedin.com/in/nicoletschan/">LinkedIn.</a> </p>
+        <h2> About Nicole </h2>
+        <br>
+        <p> Nicole's favourite word is why. Her curiosity has led me from the lab testing Australian milk exports to the office where she helps the mortgage broker community in getting their clients along their house hunting journey. <br><br> Her experience in testing and her curiosity go well in refining the end-user experience in the mortgage aggregator industry. Celebrating 21 years in Australia, she would love to connect with fellow women in tech, software testing and software development community. She would love to find out their why in working in tech and their stories in career pivoting. She hopes the skills learnt in the coding bootcamp will help her to pivot into the world of software development. <br><br> Outside work, her curiosity has her chasing the perfect sunrise through the lens of photography. She also believes in giving back to the community by volunteering at Women in Tech networking events. To find out more, you can connect with her at <a href="https://www.linkedin.com/in/nicoletschan/">LinkedIn.</a> </p>
       </section>
+
       <section class = "contact-form">
-          <h2> Contact Me </h2>
-          <form>
-            <div class="question-group">
-              <div class="question">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" placeholder="Enter your name">
-              </div>
-              <div class="question">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email">
-              </div>
-            </div>
-            <div class="question">
-              <label for="message">Message</label>
-              <textarea id="message" placeholder="Enter your message"></textarea>
-            </div>
-            <div class="question">
-              <input type="submit" id="submit" value="Sumbit">
-            </div>
+        <h2> Contact Me </h2>
+        <form>
+          <form class="question-group">
+            <form class="question">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Enter your name">
+            </form>
+            <form class="question">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your email">
+            </form>
+          <form class="question">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+          </form>
+          <form class="question">
+            <input type="submit" id="submit" value="Submit">
+          </form>
         </form>
       </section>
-    </div>
  </body>
 
  </html>
