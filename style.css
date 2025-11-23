@@ -86,6 +86,7 @@ header .mobile-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 25px;
 }
 
  @media (min-width: 768px) {
@@ -102,9 +103,15 @@ header .mobile-header {
       margin-right: 16px;
    }
 
-   header .mobile-header .hamburger-icon {
+    .mobile-header .button {
       display: none;
    }
+
+   .mobile-header .hamburger-icon {
+      display: none;
+   }
+
+  
  }
 
 /* .logo */
