@@ -37,7 +37,7 @@
 ####  Desktop Screenshots
 ![Desktop Home Page](./img/index-800px.jpg)
 ![Desktop Projects Page](./img/projects-800px.jpg)
-####  Mobile Screenshots
+git####  Mobile Screenshots
 ![Mobile Home Page](./img/index-700px.jpg)
 ![Mobile Projects Page](./img/projects-700px.jpg)
 ####  Wireframe
