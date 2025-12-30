@@ -25,7 +25,7 @@
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
 - [ ] Different styles for active, hover and focus states.
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
+- [x] Include JavaScript to add some dynamic elements to your site. (Extra tricky!)
 ​
 ### Screenshots
 > Please include the following:
