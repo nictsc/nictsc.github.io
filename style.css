@@ -134,8 +134,13 @@ header .mobile-header {
 .mobile-nav a {
   text-decoration: none;
   color: var(--black);
+  display: flex;
+  padding: 4px 32px;
+  justify-content: flex-end;
+}
+
+.mobile-nav.is-open {
   display: block;
-  padding: 4px 16px;
 }
 
 /* .desktop-nav */
