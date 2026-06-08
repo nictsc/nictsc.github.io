@@ -622,6 +622,33 @@ section { padding: 100px 56px; }
 textarea.form-input { resize: vertical; min-height: 110px; }
 
 /* ══════════════════════════════════════
+   GIVEAWAY
+══════════════════════════════════════ */
+.giveaway {
+  padding: 100px 56px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.giveaway-desc {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--fg-body);
+}
+.giveaway-qr {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 12px;
+  background: var(--surface);
+  margin-top: 8px;
+}
+
+/* ══════════════════════════════════════
    FOOTER
 ══════════════════════════════════════ */
 footer {
